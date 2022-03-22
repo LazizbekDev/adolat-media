@@ -1,15 +1,14 @@
 import React from 'react'
 import { Header, Footer } from './components'
+import Home from "./screens/Home";
 
 const App = () => {
   return (
     <>
       <Header />
 
-      <main>
-        <h1 className="text-3xl font-bold underline">
-          Adolat Media
-        </h1>
+      <main className={'selection:text-white selection:bg-gray-900 py-20 container mx-auto'}>
+        <Home />
       </main>
 
       <Footer />

@@ -1,0 +1,16 @@
+.navbar {
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+.logo-box {
+  z-index: 10000;
+  .logo {
+    background: white;
+    border-radius: 0 4px 4px 0;
+    padding: 7px;
+    margin-left: -4px;
+  }
+}

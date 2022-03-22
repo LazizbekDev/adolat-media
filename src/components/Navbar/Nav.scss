@@ -1,0 +1,17 @@
+.navmenu {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  transition: .3s;
+  left: 100%;
+  background: white;
+  z-index: 999;
+}
+
+.closed {
+  left: 100%;
+}
+
+.opened {
+  left: 0;
+}
