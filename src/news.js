@@ -20,7 +20,7 @@ const news = [
         image: '/images/putin.jpg',
         description: "Ikki tomonlama hamkorlikning dolzarb masalalari, jumladan, O‘zbekiston Prezidentining 2021 yil noyabr oyida Rossiyaga tashrifi yakunlari bo‘yicha erishilgan kelishuvlarni amalga oshirish jarayoni muhokama qilindi. Davlat rahbarlari Rossiya Federatsiyasi va O‘zbekiston Respublikasi o‘rtasida diplomatik munosabatlar o‘rnatilganining 30 yilligi munosabati bilan bir-birini tabrikladi. Ikki davlat o‘rtasidagi strategik sheriklik va ittifoqchilik munosabatlarini yanada mustahkamlash, siyosiy, savdo-iqtisodiy, gumanitar va boshqa sohalarda o‘zaro manfaatli aloqalarni kengaytirishdan o‘zaro manfaatdorlik tasdiqlandi.",
         author: 'Qalampir.uz Tahririyati',
-        category: 'jamiyat',
+        category: 'siyosat',
         views: 560,
         rating: 4.7,
         numReviews: 18
@@ -44,7 +44,7 @@ const news = [
         author: 'Aziz Tojiboyev',
         category: 'jamiyat',
         views: 257,
-        rating: 3.5,
+        rating: 5,
         numReviews: 9
     },
     {
@@ -53,7 +53,7 @@ const news = [
         image: '/images/uzbek.jpg',
         description: "O‘zbekiston Ukraina hududiy yaxlitligi va suverenitetini tan oladi, Donbassdagi o‘zini o‘zi mustaqil deb e’lon qilgan respublikalarni tan olmaydi. Bu haqda Oliy Majlis Senatining yigirma to‘rtinchi yalpi majlisida nutq so‘zlagan tashqi ishlar vaziri Abdulaziz Komilov aytib o‘tdi.",
         author: 'Shahboz Tojiboyev',
-        category: 'jamiyat',
+        category: 'texnologiya',
         views: 257,
         rating: 3.5,
         numReviews: 9

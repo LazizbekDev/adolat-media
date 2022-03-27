@@ -8,13 +8,18 @@ img {
 .carder {
   display: flex;
   flex-direction: column;
-  width: clamp(20rem, calc(20rem + 2vw), 22rem);
+  //width: clamp(10rem, calc(20rem + 2vw), 18rem);
   overflow: hidden;
   box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
   border-radius: 1em;
   background: #ECE9E6;
   background: linear-gradient(to right, #FFFFFF, #ECE9E6);
 
+  @media only screen and (max-width: 768px) {
+    & {
+      max-width: 400px;
+    }
+  }
 }
 
 
@@ -38,19 +43,19 @@ img {
   margin-left: .5em;
 }
 
-.tag-blue {
+.texnologiya {
   background: #56CCF2;
   background: linear-gradient(to bottom, #2F80ED, #56CCF2);
   color: #fafafa;
 }
 
-.tag-brown {
+.jamiyat {
   background: #D1913C;
   background: linear-gradient(to bottom, #FFD194, #D1913C);
   color: #fafafa;
 }
 
-.tag-red {
+.siyosat {
   background: #cb2d3e;
   background: linear-gradient(to bottom, #ef473a, #cb2d3e);
   color: #fafafa;
@@ -62,13 +67,15 @@ img {
 }
 
 .card__footer {
-  display: flex;
+  width: 100%;
   padding: 1rem;
   margin-top: auto;
 }
 
 .user {
   display: flex;
+  width: 100%;
+  justify-content: space-between;
   gap: .5rem;
 }
 
