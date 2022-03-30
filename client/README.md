@@ -1,0 +1,1 @@
+<h1 style="text-align: center; color: crimson">Adolat Media | TEZ KUNDA...</h1>

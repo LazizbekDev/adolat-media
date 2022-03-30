@@ -1,0 +1,21 @@
+.navbar {
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+.logo-box {
+  z-index: 10000 !important;
+  position: relative;
+  .logo {
+    background: white;
+    border-radius: 0 4px 4px 0;
+    padding: 7px;
+    margin-left: -4px;
+  }
+
+  @media only screen and (max-width: 426px) {
+    font-size: 15px;
+  }
+}

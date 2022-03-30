@@ -1,0 +1,13 @@
+.search-input {
+  margin: auto;
+  transform: translateX(-0%);
+  width: 100%;
+  padding: 5px 4px;
+  font-family: sans-serif;
+  transition: all .3s;
+  opacity: 1;
+  z-index: 5;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  background: white;
+}
